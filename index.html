@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container registro">
+        <form method="post" id="Registrarseform" onsubmit="return enviarForm();">
+            <div class="form-group margin">
+                <label for="nombre">Ingrese su nombre completo:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Introducir nombre" minlength="3" maxlength="100" required>
+            </div>
+            <div class="form-group margin">
+                <label for="apellido">Ingrese su email:</label>
+                <input type="text" class="form-control" id="mail" name="mail" placeholder="Introducir apellido" minlength="3" maxlength="100" required>
+            </div>
+            <div class="form-group margin">
+                <label for="apellido">Ingrese su contraseña:</label>
+                <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Introducir contraseña" min="8" max="100" required>
+            </div>
+            <div class="form-group margin">
+                <label for="apellido">Repita su contraseña:</label>
+                <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Introducir contraseña" min="8" max="100" required>
+            </div>
+            
+            <div class="button-container">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script>src="script.js"</script>
+</body>
+</html>
