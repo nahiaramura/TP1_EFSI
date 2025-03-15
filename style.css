@@ -1,5 +1,5 @@
 /* Estilos generales */
-body {
+/*body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #74ebd5, #acb6e5);
     display: flex;
@@ -19,7 +19,7 @@ body {
 }
 
 /* Estilos para el formulario */
-.form-group {
+/*.form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
@@ -45,7 +45,7 @@ input:focus {
 }
 
 /* Mensajes de validación */
-.error {
+/*.error {
     color: red;
     font-size: 0.9rem;
     display: none;
@@ -68,7 +68,7 @@ input:focus {
 }
 
 /* Botón de envío */
-.button-container {
+/*.button-container {
     display: flex;
     justify-content: center;
 }
