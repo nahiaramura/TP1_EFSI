@@ -118,12 +118,6 @@ input:focus {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.dark-input {
-    background: #13132e;
-    color: #000000;
-    border: 1px solid #3c3c64;
-}
-
 .dark-input::placeholder {
     color: #ffffff;
 }
