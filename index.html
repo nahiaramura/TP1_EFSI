@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
+<body>  
+    <header class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <button id="dark-mode" onclick=" cambiarModoOscuro()" >TEMA</button>
+                    </div>
+                </div> 
+            </header>
     <div class="container registro">
         <form method="post" id="Registrarseform" onsubmit="return validarForm();">
+            
+            <h1>REGISTRARSE</h1>
             <div class="form-group margin">
                 <label for="nombre">Ingrese su nombre completo:</label>
                 <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Introducir nombre" minlength="3" maxlength="100">
