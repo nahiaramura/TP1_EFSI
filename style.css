@@ -53,10 +53,9 @@ label {
 }
 
 input {
-        border: none;
+    border: none ;
     background: linear-gradient(135deg, #d5bdaf, #e3d5ca);
     padding: 10px;
-    border: 1px solid #ffffff;
     border-radius: 5px;
     transition: all 0.3s ease;
     font-size: 1rem;
