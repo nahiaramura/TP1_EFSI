@@ -34,6 +34,9 @@ body {
     max-width: 400px;
     border-color: #f5ebe0;
 }
+.dark-mode .container.registro {
+    background: #9a8c98;
+}
 
 .form-group {
     display: flex;
@@ -183,13 +186,13 @@ header {
 }
 
 .img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain; /* Ajusta la imagen dentro del cuadrado sin recortarla */
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
 
 button {
-    padding: 5px; /* Reduce el espacio interno */
+    padding: 5px; 
     border: none;
     background: none;
     cursor: pointer;
@@ -200,6 +203,6 @@ button {
     .dark-mode .cambio-color img:first-child{
     display: none;
     }
-    .dark-mode #cambio-color img:last-child{
+    .dark-mode .cambio-color img:last-child{
     display: block;
     }
