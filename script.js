@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function validarMail() {
         let mail = mailInput.value.trim();
-        const mailValido = /^[a-z0-9]+@(gmail|hotmail|outlook)\.com$/.test(mail);
+        const mailValido = /^[a-z0-9]+@(gmail|hotmail|outlook|yahoo)\.com$/.test(mail);
         mostrarMensaje(mailInput, mailValido ? "✅ Email válido" : "❌ Formato inválido (usuario@gmail.com)", mailValido);
         return mailValido;
     }
@@ -81,7 +81,6 @@ function cambiarModoOscuro() {
     var body = document.body;
     body.classList.toggle("dark-mode");
 
-    // Seleccionar todos los botones
     var botones = document.querySelectorAll(".btn");
     
     if (body.classList.contains("dark-mode")) {

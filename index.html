@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>  
-    <header class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <button id="dark-mode" onclick=" cambiarModoOscuro()" >TEMA</button>
-                    </div>
-                </div> 
-            </header>
+            <div>
+                <button class="cambio-color" onclick="cambiarModoOscuro()">
+                    <img  class="img" src="img/modoOscuro.png" alt="Clickable Image">
+                    <img class="img" src="img/descarga.jfif" alt="Clickable Image">
+                </button>
+            </div>
     <div class="container registro">
        
-        <form method="post" id="Registrarseform" onsubmit="return validarForm();">
+        <form method="post" id="Registrarseform" onsubmit="return validarForm(event);">
             
             <h1>REGISTRARSE</h1>
             <div class="form-group margin">
