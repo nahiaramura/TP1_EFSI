@@ -197,6 +197,11 @@ button {
     background: none;
     cursor: pointer;
 }
+.cambio-color{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
 .cambio-color img:last-child{
     display: none;
     }
